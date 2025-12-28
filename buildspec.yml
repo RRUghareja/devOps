@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Preparing files for S3..."
+artifacts:
+  files:
+    - index.html
+    # - '**/*'  <-- Use this instead if you want to send EVERY file in the folder
